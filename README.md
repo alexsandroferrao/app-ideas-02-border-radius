@@ -5,10 +5,8 @@
 [App-ideas](https://github.com/florinpop17/app-ideas)
 
 ## Desafios já realizados 
-- [ x ] [Bin2Dec](https://github.com/alexsandroferrao/app-ideas-01-Bin2Dec)
-
-Este é o desafio número 02 [Border-Radius](https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Border-Radius-Previewer.md)
-
+- [x] Conversão de binário para decimal [Bin2Dec](https://github.com/alexsandroferrao/app-ideas-01-Bin2Dec)
+- [ ] Este é o desafio número 02 [Border-Radius](https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Border-Radius-Previewer.md)
 
 # Border-radius Previewer
 
