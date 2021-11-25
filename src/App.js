@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
+  // const [altura,setAltura] = useState();
+  // const [comprimento,setComprimento] = useState();
+
+  function valorAltura() {
+    const altura = "10px";
+    return (
+      <div className="altura">
+        <label for="altura">Altura</label>
+        <br />
+        <input  className="altura"type="text" value={altura} id="altura" readOnly="true" />
+      </div>
+    );
+  }
+
+  function valorComprimento() {
+    const comprimento = "10px";
+    return (
+      <div className="comprimento">
+        <label for="comprimento">Comprimento</label>
+        <br />
+        <input  className="altura" type="text" value={comprimento} readOnly="true" />
+      </div>
+    );
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="box" id="box">
+      {valorAltura()}
+      {valorComprimento()}
     </div>
   );
 }
